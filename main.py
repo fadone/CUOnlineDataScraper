@@ -129,6 +129,8 @@ data = data.rename(columns={"Attendance Summary": "Attendance"})
 for idx in data.index:
     attendance = str(data.loc[idx, "Attendance"])
     percentage = re.search("_percentage: (.*?),", attendance)
+    if percentage is None:
+        continue
     data.loc[idx, "Attendance"] = int(percentage.group(1))
 
 data.to_excel(writer, sheet_name='Courses', index=False)
