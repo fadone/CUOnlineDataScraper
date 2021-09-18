@@ -90,7 +90,7 @@ driver.close()
 
 # Initializing ExcelWriter
 create_directory("output")
-writer = pd.ExcelWriter("output/data.xlsx", engine='xlsxwriter')
+writer = pd.ExcelWriter("data.xlsx", engine='xlsxwriter')
 workbook = writer.book
 
 # Profile
