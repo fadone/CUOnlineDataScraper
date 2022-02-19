@@ -9,4 +9,4 @@ check output folder for excel file.
 
 TODO:
 -----
-- Get marks summary and attendance details of every course.
+- [ ] Get marks summary and attendance details of every course.
