@@ -15,3 +15,4 @@ Scrapes:
 TODO:
 -----
 - [ ] Get marks summary and attendance details of every course.
+- [ ] Download assignments, learning resources and lecture contents.
